@@ -1,0 +1,124 @@
+@media only screen and (max-width: 1024px) {
+    .pricingOrder{
+        display: none;
+    }
+    .menuDiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .signinBtn{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .headerIcon{
+        margin: 0 10px;
+        width: 25px;
+        height: 25px;
+    }
+    .checkTours{
+        display: flex;
+        flex-direction: column;
+    }
+    .tourBtn{
+        width: 100%;
+        margin:  10px 0;
+    }
+    .title{
+        text-align: center;
+    }
+    .ourWork{
+        flex-direction: column;
+    }
+    .sidebar{
+        flex-direction: row;
+        width: 100%;
+        overflow: hidden;
+    }
+    .sidebarUpVect{
+        display: none;
+    }
+    .sidebarDownVect{
+        display: none;
+    }
+    .SidebarElement{
+        width: 250px;
+    }
+    .filters{
+        display: none;
+    }
+    .jobTitleDiv{
+        display: none;
+    }
+    .aboutOurWork{
+        flex-direction: column;
+    }
+    .workExample{
+        padding: 0;
+    }
+    .slidVideo{
+        width: 100%;
+        /* align-items: flex-start; */
+        order: 1;
+    }
+    .chekcedPhoto{
+        width: 100%;
+    }
+    .photoChooseDiv{
+        overflow: hidden;
+        width: auto;
+    }
+    .jobDescript{
+        /* align-items: flex-end; */
+        width: 90%;
+        padding: 15px 0 21px;
+        order: 2;
+    }
+    .lastUpdates{
+        position: static;
+        height: auto;
+    }
+    .newServices{
+        padding: 0;
+        top: 0;
+        width: 100%;
+        position: relative;
+    }
+    .lastImgNone{
+        display: block;
+    }
+    .lastUpdatesTitle{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .lastUpdDesc{
+        padding: 20px;
+    }
+    .lastImgDiv{
+        display: none;
+    }
+    .br{
+        display: none;
+    }
+    .lastImg{
+        width: 100%;
+    }
+    .lastImgDiv{
+        width: 100%;
+    }
+    .testimonails{
+        width: 100%;
+    }
+    
+    .footer{
+        flex-direction: column;
+    }
+    .footerItem2{
+        margin-left: 0;
+    }
+    .getInTouch{
+        display: block;
+    }
+}

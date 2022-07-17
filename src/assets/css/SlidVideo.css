@@ -1,0 +1,113 @@
+.slidVideo{
+    width: 70%;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+
+.choosenPhoto{
+    width: 100%;
+    position: relative;
+    height: 600px;
+    /* overflow: hidden; */
+    margin-bottom: 20px;
+}
+
+.chekcedPhoto{
+    width: 1080px;
+    height: 600px;
+    -o-object-fit: cover;
+       object-fit: cover;
+
+}
+.videoPlayFon{
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+}
+.videoPlay{
+    position: absolute;
+    z-index: 30;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 10px;
+    height: 13px;
+}
+
+.photoChooseDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    width: 140px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.images{
+    width: 140px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.backFonDiv{
+    width: 140px;
+    height: 80px;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.yellowDiv{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yellowFon{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.yellowFonVector{
+    width: 5.5px;
+    height: 6px;
+    position: absolute;
+    z-index: 30;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nextAndPrevious{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45px;
+}
+.next{
+    width: 6px;
+    margin-bottom: 12px;
+}
+.previous{
+    width: 6px;
+}

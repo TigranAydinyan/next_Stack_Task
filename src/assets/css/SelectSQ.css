@@ -1,0 +1,27 @@
+.selectSQ{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.select{
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.selectSqFt{
+    font-size: 12px;
+    font-weight: 600;
+    color: #1A1A1A;
+    line-height: 16.37px;
+    margin: 0 15px 0 0;
+}
+
+.selectRange{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,49 @@
+.tableDiv{
+    width: 80%;
+    margin: auto;
+}
+
+.tableLayout{
+    table-layout: fixed;
+}
+
+.tableTh{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tableDollar{
+    font-size: 10px;
+    font-weight: 600;
+    color: #1A1A1A;
+    line-height: 13.64px;
+}
+.tablePricePanel{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #1A1A1A;
+    line-height: 27px;
+    text-align: center;
+    position: relative;
+}
+.tableHeadText{
+    
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+.tablePricePanel::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #EBEBEB;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    transform: translateX(-50%);
+}

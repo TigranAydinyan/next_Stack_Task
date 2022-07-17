@@ -1,0 +1,44 @@
+.testimonalsElement{
+    display: flex;
+    justify-content: space-between;
+    /* width: 30%; */
+}
+.personIcon{
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+.star{
+    margin-left: 5px;
+}
+.personName{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1A1A1A;
+}
+.lorem{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6F6F6F;
+}
+.loremtext{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6F6F6F;
+}
+.moreLessBtn{
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #1A1A1A;
+}
+.starDiv{
+    display: flex;
+    margin-bottom: 5px;
+}

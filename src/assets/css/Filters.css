@@ -1,0 +1,31 @@
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.filterBy{
+    font-size: 12px;
+    color: #1A1A1A;
+    font-weight: 600;
+}
+
+.clearIcon{
+    margin-right: 5px;
+}
+
+.clear{
+    font-size: 12px;
+    color: #1A1A1A;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+}
+.clearDiv{
+    padding: 0 10px;
+}
+.clearDiv:hover{
+    cursor: pointer;
+}
+.filterByDiv{
+    margin-right: 10px;
+}

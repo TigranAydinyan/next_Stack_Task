@@ -1,0 +1,38 @@
+.filterElement{
+    min-width: 150px;
+    margin: 0 2px;
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 14px 10px;
+    position: relative;
+}
+
+.filterElement:hover{
+    cursor: pointer;
+}
+
+.filterTitle{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 14px;
+
+}
+.filterIcon{
+    width: 19.41px;
+    height: 12px;
+    padding-right: 5px;
+    
+}
+.filterElement::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    background-color: #E7E7E7;
+    top: 50%;
+    left: 37px;
+    display: block;
+    transform: translateY(-50%);
+    background-color: #EBEBEB;
+}

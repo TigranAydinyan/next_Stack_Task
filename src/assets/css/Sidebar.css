@@ -1,0 +1,30 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    box-shadow: 0px 1px 12px 0px #bfbbbb;
+}
+.sidebarUpVect{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sidebarDownVect{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+
+.sidebarDownVect::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #E7E7E7;
+    top: 0;
+    left: 50%;
+    display: block;
+    transform: translateX(-50%);
+
+}

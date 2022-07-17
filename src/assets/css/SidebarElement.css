@@ -1,0 +1,32 @@
+.SidebarElement{
+    /* background-color: #FFFFFF; */
+    text-align: center;
+    padding: 15px 21px;
+    position: relative;
+    height: 120px;
+}
+
+.SidebarIcon{
+    width: 64px;
+    height: 30px;
+    padding: 5px;
+}
+.SidebarElement::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #F4F4F4;
+    top: 0;
+    left: 50%;
+    display: block;
+    transform: translateX(-50%);
+
+
+}
+.sidebarTitle{
+    font-size: 12px;
+    font-weight: 600;
+    color: #1A1A1A;
+    text-transform: uppercase;
+}

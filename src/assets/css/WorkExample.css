@@ -1,0 +1,10 @@
+.workExample{
+    padding: 30px;
+}
+
+.aboutOurWork{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}

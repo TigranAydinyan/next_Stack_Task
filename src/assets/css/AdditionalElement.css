@@ -1,0 +1,56 @@
+.additionalElement{
+    width: 280px;
+    padding-top: 20px;
+    /* text-align: center; */
+    border: 1px solid #E7E7E7;
+}
+
+.addElemImg{
+    margin: auto;
+}
+.addElemPrice{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A1A1A;
+    line-height: 27px;
+    margin-top: 10px;
+}
+.additinalDollar{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    margin-right: 5px;
+}
+.addElemText{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+}
+.addElemBtn{
+    border: 2px solid #000;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 36px;
+}
+.addElemUl{
+    margin-top: 10px; 
+}
+.addElemUl > li::marker{
+    color: #FFDB11;
+}
+.addElemUl > li{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6F6F6F;
+    padding: 0;
+    margin: 0;
+}
+.quickBtn{
+    width: 100%;
+    border: none;
+    padding: 10px 0 7px 0; 
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}

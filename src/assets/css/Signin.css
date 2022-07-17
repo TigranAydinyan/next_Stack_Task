@@ -1,0 +1,37 @@
+.signin{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+}
+.phone{
+    margin: 0;
+    padding: 0 15px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.signinBtn{
+    background-color: #FFDB11;
+    border: none;
+    padding: 8px 15px 9px 16px;
+    color:  #1A1A1A;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17.73px;
+}
+.cartIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.menuDiv{
+ 
+    display: none;
+    
+}
+.menu{
+    margin: 2.5px 0;
+}

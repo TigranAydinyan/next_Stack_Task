@@ -1,0 +1,51 @@
+.tours{
+    padding: 204px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.captivatingTour{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.checkTours{
+    margin: auto;
+}
+.PriceBtn{
+    background-color: #FFFFFF;
+    padding: 11px 23px;
+    border: 2px solid #FFFFFF;
+}
+.workBtn{
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #FFFFFF;
+    padding: 11px 37px;
+    margin: 0 20px;
+    color: #FFFFFF;
+}
+.tourOrderBtn{
+    padding: 11px 29px;
+    background: #FFDB11;
+    border: 2px solid #FFDB11;
+}
+.tourBtn{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+}
+.jobTitle{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 34px;
+}

@@ -1,0 +1,64 @@
+.jobDescript{
+    width: 25%;
+}
+
+.priceStarting{
+    display: flex;
+    align-items: center;
+
+}
+.start{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.1px;
+
+    color: #1A1A1A;
+}
+.minPrice{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.dollar{
+    font-size: 12px;
+    font-weight: 800;
+
+    line-height: 16px;
+}
+.videoTitle{
+    font-size: 22px;
+    font-weight: 700;
+    width: 193px;
+    line-height: 30px;
+    color: #1A1A1A;;
+}
+.videoDescription{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #414141;
+}
+
+.orderBtn{
+    background-color: #FFDB11;
+    padding: 11px 44px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.videoWatchBtn{
+    border: 2px solid #000000;
+    padding: 11px 25px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    /* text-align: center; */
+    color: #1A1A1A;
+}
